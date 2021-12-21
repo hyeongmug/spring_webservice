@@ -60,6 +60,15 @@ public class Posts {
         this.content = content;
         this.author = author;
     }
+    /*
+        발더패턴 클래스 사용 ex)
+        Posts.builder()
+            .title(title)
+            .content(content)
+            .author(author)
+            .build();
 
 
+        ===> 빌더패턴 설명 https://readystory.tistory.com/121
+     */
 }
