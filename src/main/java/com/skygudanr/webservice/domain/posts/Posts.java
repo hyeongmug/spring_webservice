@@ -69,6 +69,6 @@ public class Posts {
             .build();
 
 
-        ===> 빌더패턴 설명 https://readystory.tistory.com/121
+        ===> 빌더패턴 설명 https://using.tistory.com/71
      */
 }
