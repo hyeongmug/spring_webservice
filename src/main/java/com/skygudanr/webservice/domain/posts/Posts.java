@@ -1,6 +1,7 @@
 package com.skygudanr.webservice.domain.posts;
 
 
+import com.skygudanr.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -24,7 +25,7 @@ Entity 클래스를 프로젝트 코드상에서 기본생성자로 생성하는
 ex) SALES_MANAGER 테이블
  */
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id // 해당 테이블의 PK를 나타냄
     /*
     @GeneratedValue
