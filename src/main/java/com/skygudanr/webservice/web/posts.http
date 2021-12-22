@@ -1,0 +1,14 @@
+### .http 파일 설명 ==> https://jojoldu.tistory.com/266
+
+### Hello
+GET http://localhost:8080/hello
+
+### Insert Posts
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "title": "테스트 제목 1",
+  "author": "테스트 작성자 1",
+  "content": "테스트 내용 1"
+}
