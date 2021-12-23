@@ -1,6 +1,6 @@
 package com.skygudanr.webservice.web;
 
-import com.skygudanr.webservice.domain.posts.PostsSaveRequestDto;
+import com.skygudanr.webservice.dto.posts.PostsSaveRequestDto;
 import com.skygudanr.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

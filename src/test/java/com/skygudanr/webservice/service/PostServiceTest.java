@@ -1,7 +1,7 @@
 package com.skygudanr.webservice.service;
 
 import com.skygudanr.webservice.domain.posts.PostsRepository;
-import com.skygudanr.webservice.domain.posts.PostsSaveRequestDto;
+import com.skygudanr.webservice.dto.posts.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;

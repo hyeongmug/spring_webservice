@@ -1,5 +1,6 @@
-package com.skygudanr.webservice.domain.posts;
+package com.skygudanr.webservice.dto.posts;
 
+import com.skygudanr.webservice.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
