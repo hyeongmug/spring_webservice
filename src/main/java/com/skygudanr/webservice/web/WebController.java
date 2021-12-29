@@ -5,6 +5,10 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller
 @AllArgsConstructor
@@ -16,6 +20,13 @@ public class WebController {
     public String main(Model model) {
         model.addAttribute("posts", postsService.findAllDesc());
         return "main";
+    }
+
+    @GetMapping("/test")
+    @ResponseBody
+    public Map<String, String> test() {
+        Map<String, String> testMap = new HashMap<>();
+        return testMap;
     }
 
 /*
