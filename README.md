@@ -1,4 +1,4 @@
-# spring_webservice
+# spring_webservice [![Build Status](https://app.travis-ci.com/hyeongmug/spring_webservice.svg?branch=master)](https://app.travis-ci.com/hyeongmug/spring_webservice)
 springboot + gradle 웹서비스 따라 만들어 보기
 
 목표
